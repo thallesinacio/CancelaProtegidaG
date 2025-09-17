@@ -7,7 +7,7 @@ Este projeto foi desenvolvido como parte da Residência Tecnológica em Sistemas
 
 ## 2. Funcionalidades
 
-### Autenticação por Senha: O acesso é liberado apenas após a inserção de uma senha correta de 4 dígitos.
+Autenticação por Senha: O acesso é liberado apenas após a inserção de uma senha correta de 4 dígitos.
 
 Controle de Atuador: Utiliza um servo motor de rotação contínua para simular o movimento mecânico de uma cancela.
 
