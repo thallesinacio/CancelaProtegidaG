@@ -1,11 +1,11 @@
 ## Cancela Protegida: Controle de Acesso com BitDogLab
 
-#1. Visão Geral
+# 1. Visão Geral
 
 Este projeto foi desenvolvido como parte da Residência Tecnológica em Sistemas Embarcados e demonstra o controle de um atuador (servo motor) com a placa BitDogLab.  "Cancela Protegida" é um protótipo de um sistema de controle de acesso que utiliza um teclado matricial para a entrada de uma senha numérica, que, se correta, aciona um servo motor para simular a abertura e fechamento de uma cancela ou fechadura.
 
 
-#2. Funcionalidades
+# 2. Funcionalidades
 
 Autenticação por Senha: O acesso é liberado apenas após a inserção de uma senha correta de 4 dígitos.
 
@@ -15,7 +15,7 @@ Feedback ao Usuário: O sistema fornece feedback em tempo real através do monit
 
 Estrutura de Firmware Robusta: O código é estruturado para ser legível, comentado e para lidar com debounce de teclas, garantindo uma leitura precisa. 
 
-#3. Componentes de Hardware
+# 3. Componentes de Hardware
 
 Placa de desenvolvimento BitDogLab (baseada no RP2040)
 
@@ -27,7 +27,7 @@ Fonte de alimentação externa para o servo motor
 
 Jumpers para conexões
 
-#4. Estrutura do Firmware
+# 4. Estrutura do Firmware
 
 O firmware, escrito em C, utiliza o SDK do Raspberry Pi Pico e é dividido em várias partes lógicas:
 
@@ -45,7 +45,7 @@ Controle do Servo: Utiliza o hardware de PWM do RP2040 para gerar um sinal de 50
 
 Lógica de Senha (main): O loop principal aguarda por entradas válidas do teclado, armazena os dígitos, e ao receber 4 dígitos, realiza a comparação com a senha mestra.
 
-#5. Como Compilar e Usar
+# 5. Como Compilar e Usar
 
 Configuração do Ambiente:
 
@@ -71,6 +71,6 @@ Abra um monitor serial para ver o feedback.
 
 Digite a senha "5587" no teclado para acionar a cancela.
 
-#6. Vídeo de Demonstração
+# 6. Vídeo de Demonstração
 
 Para uma explicação detalhada e ver o projeto em funcionamento, acesse o vídeo de demonstração:
